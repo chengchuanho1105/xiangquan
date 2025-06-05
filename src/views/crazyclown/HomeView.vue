@@ -72,6 +72,9 @@ function scrollTo(where: string) {
 
     <SectionDefStyle id="home-joinStep" mainTitle="加入步驟" subTitle="Join Step" slogan="加入超簡單，只要五步">
       <div class="p-5">
+        <div class="py-5 text-center">
+          <p class="text-xl font-bold ">⚠️ 請完成下列步驟後，等候審核，任何一個步驟沒做，系統就無法作業，不會有後續作業，請注意！</p>
+        </div>
         <TimeLine index="1" mainTitle="加入Discord" subTitle="Join Discord"
           description='<a href="https://discord.gg/3TEHPZhYUK" target="_blank" class="text-indigo-600 dark:text-indigo-400 underline"><strong>點我加入戰隊 Discord 社群</strong></a><br>或輸入網址：<a href="https://discord.gg/3TEHPZhYUK" target="_blank" class="text-indigo-600 dark:text-indigo-400 underline"><strong>https://discord.gg/3TEHPZhYUK</strong></a>'>
           <template #icon>

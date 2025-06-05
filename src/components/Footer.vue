@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { defineOptions } from 'vue'
-import type { CompanyProfile } from '@/types/companyProfile'
 
 defineOptions({ name: 'AppFooter' })
 
@@ -67,12 +66,6 @@ defineProps<{
                     <div class="w-35 h-full bg-indigo-500 dark:bg-indigo-600"></div>
                 </div>
                 <div class="grid grid-cols-3 px-5">
-                    <div v-for="link in NavigationBarMenuLinks" :key="link.path" class="my-1">
-                        <router-link :to="link.path"
-                            class="hover:underline hover:text-indigo-600 dark:hover:text-indigo-400">
-                            {{ link.name }}
-                        </router-link>
-                    </div>
                 </div>
             </div>
 
