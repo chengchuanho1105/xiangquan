@@ -28,6 +28,7 @@ const companyProfile = {
   website: {
     domain: 'chaun.life/crazyclown', // 公司網站 URL
     fullUrl: 'https://www.chaun.life/crazyclown', // 完整 URL
+    homepageRouterLink: '/crazyclown',
     description: '',
     sitemapUrl: 'https://www.chaun.life/sitemap.xml', // Sitemap URL
   },
