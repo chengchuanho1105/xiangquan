@@ -19,7 +19,7 @@ const currentRole = 'customer'
                 <RouterView />
             </slot>
         </main>
-        <!--<Footer :companyProfile="companyProfile" />-->
+        <Footer :companyProfile="companyProfile" />
     </div>
 </template>
 

@@ -2,10 +2,12 @@
 import { ref, computed, onMounted, onUnmounted, defineOptions } from 'vue'
 import { useRouter } from 'vue-router'
 
+import type { CompanyProfile } from '@/types/companyProfile'
+
 defineOptions({ name: 'AppNavbar' })
 
 const { companyProfile, currentRole } = defineProps<{
-  companyProfile: typeof import('@/config/companyProfiles/xiangchaunProfile')
+  companyProfile: CompanyProfile
   currentRole: string
 }>()
 
@@ -27,17 +29,17 @@ const navItems = computed(() => {
 
   return [
     ...singleRoutes.map(r => ({
-      name: r.meta.nav.label,
+      name: r.meta?.nav?.label ?? '未命名單一頁面', // 使用 nullish coalescing
       path: r.path,
       children: []
     })),
     ...parentRoutes.map(r => ({
-      name: r.meta.nav.label,
+      name: r.meta?.nav?.label ?? '未命名主頁面', // 使用 nullish coalescing
       path: r.path,
       children: r.children
         .filter(child => child.meta?.nav?.showInNavbar)
         .map(child => ({
-          name: child.meta.nav.label,
+          name: child.meta?.nav?.label ?? '未命名子頁面', // 使用 nullish coalescing
           path: r.path.replace(/\/$/, '') + '/' + child.path.replace(/^\//, ''),
         }))
     }))

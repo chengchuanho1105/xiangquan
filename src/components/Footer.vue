@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { defineOptions } from 'vue'
 
+import type { CompanyProfile } from '@/types/companyProfile'
+
 defineOptions({ name: 'AppFooter' })
 
 defineProps<{

@@ -1,6 +1,6 @@
-// src/config/companyProfile.js
+import type { CompanyProfile } from '@/types/companyProfile'
 
-const companyProfile = {
+const companyProfile: CompanyProfile = {
   // 公司基本資訊
   basic: {
     name: '祥銓生活服務工作室', // 公司正式名稱
@@ -27,6 +27,7 @@ const companyProfile = {
   // 公司網站
   website: {
     domain: 'chaun.life', // 公司網站 URL
+    homepageRouterLink: '',
     fullUrl: 'https://www.chaun.life', // 完整 URL
     description: '祥銓生活服務工作室官方網站，提供最新服務資訊與聯絡方式。',
     sitemapUrl: 'https://www.chaun.life/sitemap.xml', // Sitemap URL

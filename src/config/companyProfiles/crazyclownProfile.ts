@@ -1,6 +1,6 @@
-// src/config/companyProfile.js
+import type { CompanyProfile } from '@/types/companyProfile'
 
-const companyProfile = {
+const companyProfile: CompanyProfile = {
   // 公司基本資訊
   basic: {
     name: 'Crazy Clown', // 公司正式名稱
