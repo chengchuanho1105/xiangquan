@@ -35,12 +35,12 @@ const companyProfile: CompanyProfile = {
 
   // 社群與連結
   socialLinks: {
-    line: 'https://line.me/ti/p/', // LINE
-    youtube: 'https://www.youtube.com/channel/', // YouTube
-    instagram: 'https://www.instagram.com/', // Instagram
-    facebook: 'https://www.facebook.com/', // Facebook
-    linkedin: 'https://www.linkedin.com/company/', // LinkedIn
-    twitter: 'https://twitter.com/', // Twitter
+    line: 'https://line.me/ti/p/~0Chuan', // LINE
+    youtube: 'https://www.youtube.com/@Chuan._.1105/', // YouTube
+    instagram: 'https://www.instagram.com/x._.1105._.q', // Instagram
+    facebook: 'https://www.facebook.com/cheng.1105.chuan', // Facebook
+    linkedin: 'https://www.linkedin.com/in/晟全-何-a03665191', // LinkedIn
+    twitter: 'https://x.com/xiangquan10', // Twitter
   },
 
   // 公司品牌資產
