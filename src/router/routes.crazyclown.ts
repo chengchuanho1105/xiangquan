@@ -8,7 +8,7 @@ const crazyclownRoutes: RouteRecordRaw = {
   meta: { layout: 'crazyclown' },
   children: [
     {
-      path: 'crazyclown',
+      path: '/crazyclown',
       name: 'crazyclown',
       component: () => import('@/views/crazyclown/HomeView.vue'),
       meta: {

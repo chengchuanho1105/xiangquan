@@ -23,7 +23,7 @@ const customerRoutes: RouteRecordRaw = {
       },
     },
     {
-      path: 'about',
+      path: '/about',
       name: 'About',
       component: () => import('@/views/customer/AboutView.vue'),
       meta: {

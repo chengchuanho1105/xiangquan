@@ -8,7 +8,7 @@ const adminRoutes: RouteRecordRaw = {
   meta: { layout: 'admin' },
   children: [
     {
-      path: 'dashboard',
+      path: '/dashboard',
       name: 'Dashboard',
       component: () => import('@/views/admin/DashboardView.vue'),
       meta: {
