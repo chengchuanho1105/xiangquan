@@ -92,7 +92,7 @@ const toggleSubMenu = (path: string) => {
     <nav class="flex items-center mx-auto justify-between py-2 px-5">
       <div class="flex items-center space-x-2">
         <img :src="companyProfile.branding.faviconUrl" alt="Logo" class="h-[40px] w-[40px]" />
-        <RouterLink to="/">
+        <RouterLink :to="companyProfile.website.domain">
           <span class="text-lg font-bold text-indigo-950 dark:text-indigo-50">
             {{ companyProfile.basic.shortName }}
           </span>
