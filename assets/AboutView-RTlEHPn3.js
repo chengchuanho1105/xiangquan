@@ -1,0 +1,1 @@
+import{_ as o,c as s,o as a,a as t}from"./index-Bv7IKhCw.js";const c={},n={class:"p-6 max-w-5xl mx-auto"};function r(l,e){return a(),s("div",n,e[0]||(e[0]=[t("h1",{class:"text-3xl font-bold mb-4"},"關於我們",-1),t("p",null,"祥銓生活服務工作室致力於提供優質生活相關服務，讓每一位客戶滿意安心。",-1)]))}const x=o(c,[["render",r]]);export{x as default};
