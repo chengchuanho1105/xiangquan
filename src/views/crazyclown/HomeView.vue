@@ -4,7 +4,7 @@
 import SectionDefStyle from '@/components/SectionDefStyle.vue'
 import TimeLine from '@/components/TimrLine.vue'
 
-import heroImg from '@/assets/media/圖片1.png'
+import heroImg1 from '@/assets/media/圖片1.png'
 
 function scrollTo(where: string) {
   const target = document.querySelector(where)
@@ -16,38 +16,22 @@ function scrollTo(where: string) {
 
 <template>
 
-  <!--
-  <section id="banner">
-    <div class="relative flex flex-col justify-center items-center banner">
-      <a @click.prevent="scrollToHero" class="scroll-hint absolute bottom-[50px] left-[50%] translate-x-[-50%] flex">
-        <span class="text-lg text-white text-center text-shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
-          向下瀏覽<br /><i class="bi bi-chevron-double-down"></i>
-        </span>
-      </a>
-    </div>
-    <div class="h-full flex items-center justify-start aos-init aos-animate" style="background-image: url('');">
-    </div>
-  </section>
-  -->
-
-
-
   <section id="home-hero">
     <div class="bg-white dark:bg-indigo-950 grid h-screen place-content-center">
       <div class="mx-auto w-screen max-w-screen-xl px-5 md:grid md:grid-cols-2 md:items-center md:gap-5">
 
         <div class="w-full flex items-center justify-center md:h-[70svh] mb-10 md:mb-0 rounded-xl" data-aos="zoom-in">
-          <img class="rounded-xl" :src="heroImg" alt="">
+          <img class="rounded-xl" :src="heroImg1" alt="">
         </div>
 
         <div class="max-w-prose text-left" data-aos="zoom-in">
-          <h2 class="text-3xl font-bold text-indigo-800 dark:text-indigo-400 sm:text-5xl">
+          <h3 class="text-3xl font-bold text-gray-800 dark:text-indigo-400 sm:text-5xl">
             <strong class="text-indigo-800 dark:text-indigo-200"> S級公會·強者集結 </strong> <br>
             <span class="text-indigo-800 dark:text-indigo-200"> Crazy_Clown </span>等你來戰。
-          </h2>
+          </h3>
 
-          <p class="mt-4 text-base text-pretty text-indigo-700 dark:text-indigo-300 sm:text-lg/relaxed">
-            <strong>Crazy_Clown是你最佳的戰友陣線！</strong><br>
+          <p class="mt-4 text-xl text-pretty text-gray-700 dark:text-indigo-300">
+            <strong class="text-indigo-700">Crazy_Clown是你最佳的戰友陣線！</strong><br>
             無論你是剛起步的新手，還是久經沙場的老兵，只要你是高活躍玩家，要的就是你！<br>
           </p>
 

@@ -27,10 +27,10 @@ defineProps<{
                 <div class="h-1 bg-gray-100 rounded overflow-hidden mt-1 mb-5">
                     <div class="w-35 h-full bg-indigo-500 dark:bg-indigo-600"></div>
                 </div>
-                <p class="mt-4 text-sm px-5">
+                <p v-if="companyProfile.contact.address" class="mt-4 text-sm px-5">
                     地址：<a :href="companyProfile.contact.mapUrl">{{ companyProfile.contact.address }}</a>
                 </p>
-                <p class="mb-4 text-sm px-5">
+                <p v-if="companyProfile.contact.phone" class="mb-4 text-sm px-5">
                     電話：<a :href="'tel:' + companyProfile.contact.phone">{{ companyProfile.contact.phone }}</a>
                 </p>
             </div>
