@@ -26,8 +26,8 @@ function scrollTo(where: string) {
         <div class="max-w-prose text-left" data-aos="zoom-in">
           <h3 class="text-3xl font-bold text-gray-800 dark:text-indigo-400 sm:text-5xl">
             <strong class="text-indigo-800 dark:text-indigo-200">S級戰隊·強者集結</strong> <br>
-            <span class="text-indigo-800 dark:text-indigo-200">PUBG: Crazy_Clown</span><br>
-            等你來戰。
+            <span class="text-indigo-800 dark:text-indigo-200">Crazy_Clown</span>
+            與您並肩而戰
           </h3>
 
           <p class="mt-4 text-xl text-pretty text-gray-700 dark:text-indigo-300">
