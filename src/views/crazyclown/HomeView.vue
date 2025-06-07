@@ -4,7 +4,7 @@
 import SectionDefStyle from '@/components/SectionDefStyle.vue'
 import TimeLine from '@/components/TimrLine.vue'
 
-import heroImg1 from '@/assets/media/圖片1.png'
+import heroImg1 from '@/assets/media/CrazyClownLogo.png'
 
 function scrollTo(where: string) {
   const target = document.querySelector(where)
@@ -26,12 +26,13 @@ function scrollTo(where: string) {
 
         <div class="max-w-prose text-left" data-aos="zoom-in">
           <h3 class="text-3xl font-bold text-gray-800 dark:text-indigo-400 sm:text-5xl">
-            <strong class="text-indigo-800 dark:text-indigo-200"> S級公會·強者集結 </strong> <br>
-            <span class="text-indigo-800 dark:text-indigo-200"> Crazy_Clown </span>等你來戰。
+            <strong class="text-indigo-800 dark:text-indigo-200">S級戰隊·強者集結</strong> <br>
+            <span class="text-indigo-800 dark:text-indigo-200">PUBG: Crazy_Clown</span><br>
+            等你來戰。
           </h3>
 
           <p class="mt-4 text-xl text-pretty text-gray-700 dark:text-indigo-300">
-            <strong class="text-indigo-700">Crazy_Clown是你最佳的戰友陣線！</strong><br>
+            PUBG: <strong class="text-indigo-700">Crazy_Clown是你最佳的戰友陣線！</strong><br>
             無論你是剛起步的新手，還是久經沙場的老兵，只要你是高活躍玩家，要的就是你！<br>
           </p>
 

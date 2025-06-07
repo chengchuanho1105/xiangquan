@@ -1,10 +1,6 @@
 <script setup lang="ts">
 
-
 import SectionDefStyle from '@/components/SectionDefStyle.vue'
-import TimeLine from '@/components/TimrLine.vue'
-
-import heroImg1 from '@/assets/media/圖片1.png'
 
 function scrollTo(where: string) {
   const target = document.querySelector(where)

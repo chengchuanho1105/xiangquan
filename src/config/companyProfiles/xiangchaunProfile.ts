@@ -45,8 +45,8 @@ const companyProfile: CompanyProfile = {
 
   // 公司品牌資產
   branding: {
-    logoUrl: '/logo.svg', // 網站 logo 路徑或 URL
-    faviconUrl: '/favicon.ico', // favicon 路徑或 URL
+    logoUrl: '/favicons/xiangchuan.ico', // 網站 logo 路徑或 URL
+    faviconUrl: '/favicons/xiangchuan.ico', // favicon 路徑或 URL
     themeColor: '#2563eb', // 主色（可用於 meta theme-color）
   },
 
