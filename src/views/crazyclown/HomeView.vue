@@ -1,10 +1,9 @@
 <script setup lang="ts">
 
-
 import SectionDefStyle from '@/components/SectionDefStyle.vue'
 import TimeLine from '@/components/TimrLine.vue'
-
 import heroImg1 from '@/assets/media/CrazyClownLogo.png'
+import MaterialIcon from '@/components/MaterialIcon.vue';
 
 function scrollTo(where: string) {
   const target = document.querySelector(where)
@@ -90,7 +89,7 @@ function scrollTo(where: string) {
         </TimeLine>
         <TimeLine index="5" mainTitle="遊戲申請加入" subTitle="Apply to join In-Game" description="" data-aos="fade-up">
           <template #icon>
-            <i class="bi bi-controller w-12 h-12 text-5xl"></i>
+            <MaterialIcon name="border_color" size="3rem" />
           </template>
         </TimeLine>
       </div>

@@ -13,7 +13,7 @@ const crazyclownRoutes: RouteRecordRaw = {
       meta: {
         layout: 'crazyclown',
         role: 'crazyclown',
-        title: `首頁｜${companyProfile.basic.shortName}`,
+        title: `PUBG:${companyProfile.basic.shortName}`,
         nav: {
           label: '首頁',
           showInNavbar: true,

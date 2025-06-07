@@ -1,0 +1,13 @@
+/* 基礎樣式 */
+/* 統一瀏覽器預設 & 設定全站基本樣式 */
+/* Reset、字體、段落、連結、列表等初始設定 */
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+
+  /*
+  -webkit-user-select: none;
+  user-select: none;
+  */
+}
