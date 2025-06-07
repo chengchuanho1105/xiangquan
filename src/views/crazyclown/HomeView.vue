@@ -24,14 +24,14 @@ function scrollTo(where: string) {
         </div>
 
         <div class="max-w-prose text-left" data-aos="zoom-in">
-          <h3 class="text-3xl font-bold text-gray-800 dark:text-indigo-400 sm:text-5xl">
-            <strong class="text-indigo-800 dark:text-indigo-200">S級戰隊·強者集結</strong> <br>
-            <span class="text-indigo-800 dark:text-indigo-200">Crazy_Clown</span>
-            與您並肩而戰
+          <h3 class="font-bold text-gray-800 dark:text-gray-400 sm:text-5xl">
+            <span class="text-4xl text-indigo-800 dark:text-gray-100">S級戰隊·強者集結</span> <br>
+            <span class="text-5xl text-indigo-800 dark:text-gray-100">Crazy_Clown</span>
+            <span class="text-5xl text-gray-800 dark:text-gray-300">與您並肩而戰</span>
           </h3>
 
-          <p class="mt-4 text-xl text-pretty text-gray-700 dark:text-indigo-300">
-            PUBG: <strong class="text-indigo-700">Crazy_Clown是你最佳的戰友陣線！</strong><br>
+          <p class="mt-4 text-xl text-pretty text-gray-700 dark:text-gray-300">
+            <strong class="text-indigo-700 dark:text-gray-100">PUBG:Crazy_Clown是你最佳的戰友陣線！</strong><br>
             無論你是剛起步的新手，還是久經沙場的老兵，只要你是高活躍玩家，要的就是你！<br>
           </p>
 
