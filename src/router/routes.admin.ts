@@ -1,5 +1,4 @@
 import type { RouteRecordRaw } from 'vue-router'
-import AdminLayout from '@/layouts/AdminLayout.vue'
 
 import companyProfile from '@/config/companyProfiles/xiangchaunProfile'
 
@@ -14,7 +13,7 @@ const adminRoutes: RouteRecordRaw = {
       meta: {
         layout: 'admin',
         role: 'admin',
-        title: `儀表板|${companyProfile.basic.shortName}`,
+        title: `儀表板｜${companyProfile.basic.shortName}`,
         nav: {
           label: '儀表板',
           showInNavbar: true,

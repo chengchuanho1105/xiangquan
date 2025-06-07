@@ -5,6 +5,7 @@ import { useRoute } from 'vue-router'
 import AdminLayout from '@/layouts/AdminLayout.vue'
 import CustomerLayout from '@/layouts/CustomerLayout.vue'
 import CrazyClownLayout from '@/layouts/CrazyClownLayout.vue'
+import PublicLayout from './layouts/PublicLayout.vue'
 
 const route = useRoute()
 
@@ -14,11 +15,14 @@ const layoutComponent = computed(() => {
   switch (layout) {
     case 'admin':
       return AdminLayout
+    case 'customer':
+      return CustomerLayout
     case 'crazyclown':
       return CrazyClownLayout
-    case 'customer':
+    case 'public':
+      return PublicLayout
     default:
-      return CustomerLayout
+      return PublicLayout
   }
 })
 </script>

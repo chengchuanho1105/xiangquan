@@ -1,5 +1,4 @@
 import type { RouteRecordRaw } from 'vue-router'
-import CustomerLayout from '@/layouts/CustomerLayout.vue'
 
 import companyProfile from '@/config/companyProfiles/xiangchaunProfile'
 
@@ -14,7 +13,7 @@ const customerRoutes: RouteRecordRaw = {
       meta: {
         layout: 'customer',
         role: 'customer',
-        title: `首頁|${companyProfile.basic.shortName}`,
+        title: `首頁｜${companyProfile.basic.shortName}`,
         nav: {
           label: '首頁',
           showInNavbar: true,
@@ -29,7 +28,7 @@ const customerRoutes: RouteRecordRaw = {
       meta: {
         layout: 'customer',
         role: 'customer',
-        title: `關於我們|${companyProfile.basic.shortName}`,
+        title: `關於我們｜${companyProfile.basic.shortName}`,
         nav: {
           label: '關於我們',
           showInNavbar: true,

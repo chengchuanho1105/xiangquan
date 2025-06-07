@@ -133,7 +133,7 @@ const toggleSubMenu = (path: string) => {
 
 
       <div class="hidden lg:block">
-        <RouterLink to="" class="bg-indigo-600 hover:bg-indigo-700 text-lg text-white px-4 py-2 rounded-full">
+        <RouterLink to="/login" class="bg-indigo-600 hover:bg-indigo-700 text-lg text-white px-4 py-2 rounded-full">
           登入
         </RouterLink>
       </div>
